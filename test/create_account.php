@@ -84,7 +84,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <li><a href="download.html">Download</a></li>
             <li><a href="login.html">Login</a></li>
 		</ul>
-		<br>
 		<ul>
             <li class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lectures</button>
@@ -109,7 +108,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
             </li>
         </ul>
-		<br>
     </nav>
 </header>
     
