@@ -1,0 +1,307 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form table {
+     margin: auto;
+     width: 80%;
+     text-align: justify;
+	 vertical-align: center;
+	 margin-left: 25%;
+	 margin-right: 25% ;
+}
+
+textarea {
+     resize: none;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+	padding-bottom: 10px;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+section#content {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+section#hero {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+section#why-choose-us {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+section#testimonial {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+section#contact {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+section#pricing {
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: scale(1.1);
+}
+
+.center-item {
+    grid-column: 2 / span 1; /* Center the item by spanning the 2nd column */
+    justify-self: center;
+}
+
+.pricing-block {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+	 flex-wrap: wrap;
+     }
+
+.pricing-card {
+	width: 300px;
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.pricing-card h3 {
+	color: #333;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.pricing-card p {
+	color: #666;
+	margin-bottom: 20px;
+}
+
+.pricing-card .price {
+	color: #333;
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.pricing-card .button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+.pricing-card .button:hover {
+	background-color: #555;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.download-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.download-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+	vertical-align: center;
+}
+
+.download-button:hover {
+    background-color: #555;
+}
+
+.download-instructions {
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.app-description {
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.features-list {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.features-list li {
+    margin-bottom: 10px;
+}
+
+.features-list strong {
+    font-weight: bold;
+}
+
+.benefits-list {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.benefits-list li {
+    margin-bottom: 10px;
+}
+
+.benefits-list strong {
+    font-weight: bold;
+}
+
+.feature-icon {
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+}
+.social-media-icon {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#login,
+#create-account {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.dropdown-menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu-list li {
+    margin-left: 20px;
+}
+.dropdown-menu {
+    left: auto !important;
+    right: 0 !important;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f2f2f2;
+}
